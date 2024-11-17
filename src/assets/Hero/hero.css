@@ -1,0 +1,129 @@
+@import url(../../index.css);
+
+.content__header-portfolio{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--colorFT-white);
+    z-index: 99;
+}
+
+.content__allIntroduction-portfolio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: var(--colorFT-white);
+
+    .content-introduction-portfolio{
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 100%;
+
+        .introduction-portfolio{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: var(--spc-preset-5);
+
+            .content-proyects-yearExperience{
+                display: flex;
+                gap: var(--spc-preset-3);
+
+                .content-numbers{
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--spc-preset-7);
+                    
+                    .numbers{
+                        font-family: var(--fontF-second);
+                        font-size: var(--fts-preset-2);
+                        font-weight: bold;
+                    }
+
+                    .numbers-description{
+                        font-size: var(--fts-preset-4);
+                        color: var(--colorFT-gray);
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .title{
+                font-family: var(--fontF-second);
+                font-size: var(--fts-preset-1);
+            }
+
+            .bx-presentation{
+                display: flex;
+                align-items: center;
+                gap: var(--spc-preset-6);
+
+                .name-and-skills{
+                    font-size: var(--fts-preset-4);
+                    font-weight: bold;
+                }
+            }
+
+            .bx-btn-scrollDown{
+                display: flex;
+                align-items: center;
+                color: var(--colorFT-gray);
+                font-weight: bold;
+                width: fit-content;
+                cursor: pointer;
+                margin-top: 5rem;
+                transition: all .1999s ease;
+
+                .bx-scrollDown{
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+
+                    .iconScrollDown{
+                        animation: scrollDown 2s infinite;
+                    }
+                }
+
+                .scroll{font-size: var(--fts-preset-4);}
+
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+
+    .image-presentation-portfolio{
+        position: absolute;
+        background-color: var(--colorCARD-blackGray);
+        width: 555px;
+        height: 650px;
+        right: var(--spc-preset-1);
+        bottom: 0;
+    }
+}
+
+@keyframes move {
+    0%{transform: translateY(0);}
+    25%{transform: translateY(0);}
+    50%{transform: translateY(-100%);}
+    75%{transform: translateY(-100%);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes scrollDown {
+    0%{transform: translateY(0);}
+    25%{transform: translateY(0);}
+    50%{transform: translateY(-15%);}
+    75%{transform: translateY(100%);}
+    100%{transform: translateY(0);}
+}

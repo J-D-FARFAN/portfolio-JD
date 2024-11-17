@@ -1,0 +1,53 @@
+@import url(../../../index.css);
+
+
+.titleIntroduction-title{
+    position: relative;
+    border: 2px solid hsl(0, 0%, 100%, 50%);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 4px 13px;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 100%, 5%);
+    gap: var(--spc-preset-6);
+    transition: .3s ease;
+    cursor: default;
+    overflow: hidden;
+
+    .circle{
+        width: 10px;
+        height: 10px;
+        background-color: var(--colorFT-white);
+        border-radius: 50%;
+        transition: .3s ease;
+    }
+    .experience{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    
+    &::before{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background-color: var(--colorFT-white);
+        left: 0;
+        top: 0;
+        z-index: -1;
+        transition: .3s ease;
+    }
+
+    &:hover{
+        color: var(--colorBG-black);
+        border-color: var(--colorFT-white);
+
+        .circle{background-color: var(--colorBG-black);}
+
+        &::before{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import url(./index.css);
+
+.content__allSection-portfolioAboutMe{
+    color: var(--colorFT-white);
+    height: 100%;
+    padding: 4rem 0;
+}

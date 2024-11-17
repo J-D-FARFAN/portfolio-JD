@@ -1,0 +1,138 @@
+@import url(../../index.css);
+
+.bx-introducionAboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spc-preset-1);
+    padding: 0 var(--spc-preset-1) 0 0;
+
+    .secondTitle{
+        width: 35%;
+        height: 120px;
+        background-color: var(--colorCARD-blackGray);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-family: var(--fontF-second);
+        font-size: var(--fts-preset-5);
+    }
+
+    .descriptionMe{width: 75%; line-height: 130%;}
+}
+
+.content--experience{
+    padding: 3rem var(--spc-preset-1);
+
+    .bx-titleIntroduction{
+        display: flex;
+        justify-content: center;
+        margin-bottom: var(--spc-preset-4);
+    }
+
+    .content__experienciaTecnologys{
+        display: flex;
+        flex-direction: column;
+        gap: var(--spc-preset-3);
+    }
+}
+
+.bx-moreExperience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spc-preset-4);
+
+    .content--explorer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .moreExperience{color: var(--colorFT-white); text-decoration: underline; font-weight: bold;}
+
+    }
+
+}
+
+.content__study-and-skills{
+    display: flex;
+    align-items: center;
+    padding: 0 var(--spc-preset-1);
+    gap: var(--spc-preset-1);
+
+    .content__study{
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--spc-preset-4);
+
+        .txt{font-size: 14.5px;}
+    }
+}
+
+.content__skills{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spc-preset-4);
+
+    .bx-skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .skills{
+            position: relative;
+            width: 80px;
+            height: 80px;
+            background-color: var(--colorCARD-blackGray);
+            padding: 25px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: .3s ease;
+
+            .colorIconsSkills{fill: var(--colorIconSkills); transition: .3s ease;}
+
+            &:hover{
+                .html5{fill: #E44D26;}
+                .css3{fill: #1572B6;}
+                .js{fill: #F7DF1E;}
+                .react{fill: #61DAFB;}
+                .figma{fill: #A259FF;}
+            }
+
+            .nameSkill{
+                opacity: 0;
+                position: absolute;
+                padding: 3px 8px;
+                border-radius: 4px;
+                color: white;
+                font-size: 12px;
+                font-weight: bold;
+                transform: translateY(0);
+                transition: all .266s ease-in-out;
+                pointer-events: none;
+            }
+        }
+
+        .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #E44D26;}}
+        .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #1572B6;}}
+        .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #F7DF1E;}}
+        .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #61DAFB;}}
+        .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #A259FF;}}
+    }
+}
+
+@keyframes dropIn {
+    0% {opacity: 0;}
+    25% {opacity: 0.3;}
+    50% {opacity: .5;}
+    75%{opacity: .7; transform: translateY(60px);}
+}

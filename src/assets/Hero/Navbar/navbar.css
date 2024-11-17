@@ -1,0 +1,77 @@
+@import url(../../../index.css);
+
+.bx-logo-navbarPortfolio{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--spc-preset-2);
+
+    .bx-image{height: 100%;}
+
+    .bx-navbar{
+        display: flex;
+        align-items: center !important;
+        height: 100%;
+
+        .navbar{
+            display: flex;
+            gap: var(--spc-preset-4);
+
+            .items-navbar-portfolio{
+                position: relative;
+                color: var(--colorFT-white);
+                font-weight: bold;
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    width: 0;
+                    height: 3px;
+                    background-color: var(--colorFT-white);
+                    bottom: -25px;
+                    transition: .3s ease;
+                }
+
+                &:hover::before{width: 100%;}
+            }
+        }
+    }
+}
+
+.bx-icons-interactionPortfolio-theme-language{
+    display: flex;
+    gap: var(--spc-preset-5);
+
+    .bx-icons{
+        position: relative;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        overflow: hidden;
+        transition: all .3s ease;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 0;
+            bottom: 0;
+            background-color: var(--colorFT-white);
+            z-index: -1;
+            transition: .3s ease;
+        }
+
+        &:hover{
+            color: var(--colorBG-black);
+
+            &::before{
+                height: 100%;
+            }
+        }
+    }
+}
