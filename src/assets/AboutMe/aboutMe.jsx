@@ -58,7 +58,7 @@ export function AboutMePortfolio() {
             year={"2021 - En proceso..."}
             nameSkill={"U. Militar Nueva Granada (UMNG)"}
             description={
-              "Profesional innovador y ético, especializado en desarrollar aplicaciones multimedia, sistemas web y móviles, videojuegos y contenido 3D. Su experiencia abarca desde la creación de interfaces interactivas hasta soluciones tecnológicas completas, aportando valor en empresas nacionales e internacionales."
+              "Profesional innovador y ético, especializado en desarrollar aplicaciones multimedia, sistemas web y móviles, videojuegos y contenido 3D. Mi experiencia abarca desde la creación de interfaces interactivas hasta soluciones tecnológicas completas, aportando valor en empresas nacionales e internacionales."
             }
           />
         </section>
