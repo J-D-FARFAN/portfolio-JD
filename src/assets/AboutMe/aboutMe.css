@@ -1,5 +1,11 @@
 @import url(../../index.css);
 
+.bx-titleStudiesSkills {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
 .bx-introducionAboutMe{
     display: flex;
     justify-content: space-between;
@@ -52,83 +58,81 @@
         cursor: pointer;
 
         .moreExperience{color: var(--colorFT-white); text-decoration: underline; font-weight: bold;}
-
     }
+}
 
+.contentAboutMe-Study{
+    margin: 4rem 0;
+
+    .bx-studiesAllSkills{
+        display: flex;
+        flex-direction: column;
+        gap: var(--spc-preset-4);
+    }
 }
 
 .content__study-and-skills{
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0 var(--spc-preset-1);
-    gap: var(--spc-preset-1);
 
-    .content__study{
-        width: 50%;
-
+    .content__skills{
         display: flex;
         flex-direction: column;
-        gap: var(--spc-preset-4);
+        gap: var(--spc-preset-5);
 
-        .txt{font-size: 14.5px;}
-    }
-}
-
-.content__skills{
-    display: flex;
-    flex-direction: column;
-    gap: var(--spc-preset-4);
-
-    .bx-skills{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-
-        .skills{
-            position: relative;
-            width: 80px;
-            height: 80px;
-            background-color: var(--colorCARD-blackGray);
-            padding: 25px;
-            border-radius: 12px;
+        .bx-skills{
             display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            border: 2px solid transparent;
-            transition: .3s ease;
+            flex-wrap: wrap;
+            gap: var(--spc-preset-3);
 
-            .colorIconsSkills{fill: var(--colorIconSkills); transition: .3s ease;}
+            .skills{
+                position: relative;
+                width: 120px;
+                height: 120px;
+                background-color: var(--colorCARD-blackGray);
+                padding: 38px;
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                border: 2px solid transparent;
+                transition: .3s ease;
 
-            &:hover{
-                .html5{fill: #E44D26;}
-                .css3{fill: #1572B6;}
-                .js{fill: #F7DF1E;}
-                .react{fill: #61DAFB;}
-                .figma{fill: #A259FF;}
+                .colorIconsSkills{fill: var(--colorIconSkills); transition: .3s ease;}
+
+                &:hover{
+                    .html5{fill: #E44D26;}
+                    .css3{fill: #1572B6;}
+                    .js{fill: #F7DF1E;}
+                    .react{fill: #61DAFB;}
+                    .figma{fill: #A259FF;}
+                }
+
+                .nameSkill{
+                    opacity: 0;
+                    position: absolute;
+                    padding: 3px 8px;
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: bold;
+                    transform: translateY(0);
+                    transition: all .266s ease-in-out;
+                    pointer-events: none;
+                }
             }
 
-            .nameSkill{
-                opacity: 0;
-                position: absolute;
-                padding: 3px 8px;
-                border-radius: 4px;
-                color: white;
-                font-size: 12px;
-                font-weight: bold;
-                transform: translateY(0);
-                transition: all .266s ease-in-out;
-                pointer-events: none;
-            }
+            .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #E44D26;}}
+            .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #1572B6;}}
+            .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #F7DF1E;}}
+            .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #61DAFB;}}
+            .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #A259FF;}}
         }
-
-        .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #E44D26;}}
-        .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #1572B6;}}
-        .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #F7DF1E;}}
-        .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #61DAFB;}}
-        .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #A259FF;}}
     }
 }
+
 
 @keyframes dropIn {
     0% {opacity: 0;}

@@ -1,8 +1,7 @@
 import React from "react";
 import "./aboutMe.css";
-import { ArrowUpRight } from "lucide-react";
 import { TitleIntroduction } from "./Components/titleIntroduction";
-import { ExperienciaPortfolio } from "./Components/Experiencia";
+import { StudiesSkills } from "./Components/studiesSkills";
 
 export function AboutMePortfolio() {
   return (
@@ -19,73 +18,57 @@ export function AboutMePortfolio() {
         </p>
       </section>
 
-      <section className="content--experience">
-        <div className="bx-titleIntroduction">
-          <TitleIntroduction />
+      <article className="contentAboutMe-Study spacerPage">
+        <div className="bx-titleStudiesSkills">
+          <TitleIntroduction titleName={"Estudios"} />
         </div>
 
-        <article className="content__experienciaTecnologys">
-          <ExperienciaPortfolio
-            nameTecnology={"React"}
+        <section className="bx-studiesAllSkills">
+          <StudiesSkills
+            nameStudy={"React"}
             month={"Septiembre"}
             year={"2024"}
-            descriptionT={
+            nameSkill={"Udemy"}
+            linkPageForNameSkill="https://www.udemy.com/user/nicolas-schurmann/"
+            byName={"by. Nicolas Schurmann"}
+            description={
               "Diseñé e implementé interfaces responsivas en React para una experiencia fluida en móviles y escritorio"
-            }
-            platform={"Udemy"}
-            nameMaster={"by. Nicolas Schurmann"}
-            linkPlatform={
-              "https://www.udemy.com/course/react-guia-definitiva-hooks-router-redux-next-proyectos/?couponCode=KEEPLEARNING"
             }
           />
 
           <span className="line"></span>
 
-          <ExperienciaPortfolio
-            nameTecnology={"Diseño UX/UI"}
+          <StudiesSkills
+            nameStudy={"Diseño UX/UI"}
             month={"Julio"}
             year={"2024"}
-            descriptionT={
+            nameSkill={"Udemy"}
+            linkPageForNameSkill="https://www.udemy.com/user/javier-canas-2/"
+            byName={"by. Javir Cañas - Espacio UX"}
+            description={
               "Diseñé interfaces atractivas y funcionales en Figma, mejorando la usabilidad web"
             }
-            platform={"Udemy"}
-            nameMaster={"by. Javir Cañas - Espacio UX"}
           />
-        </article>
 
-        <div className="bx-moreExperience">
-          <span className="content--explorer">
-            <a href="#" className="moreExperience">
-              Explora mi experiencia
-            </a>
-            <ArrowUpRight />
-          </span>
-        </div>
-      </section>
+          <span className="line"></span>
 
-      <section className="content__study-and-skills">
-        <article className="content__study">
-          <TitleIntroduction />
-
-          <ExperienciaPortfolio
-            nameTecnology={"Ing. Multimedia"}
+          <StudiesSkills
+            nameStudy={"Ing. Multimedia"}
             month={"Julio"}
             year={"2021 - En proceso..."}
-            platform={"U. Militar Nueva Granada (UMNG)"}
+            nameSkill={"U. Militar Nueva Granada (UMNG)"}
+            description={
+              "Profesional innovador y ético, especializado en desarrollar aplicaciones multimedia, sistemas web y móviles, videojuegos y contenido 3D. Su experiencia abarca desde la creación de interfaces interactivas hasta soluciones tecnológicas completas, aportando valor en empresas nacionales e internacionales."
+            }
           />
+        </section>
+      </article>
 
-          <p className="txt">
-            El egresado en Ingeniería en Multimedia es un profesional innovador
-            y ético, capaz de desarrollar soluciones tecnológicas utilizando las
-            TIC para crear aplicaciones multimedia, sistemas web/móvil,
-            videojuegos y contenido 3D. Puede desempeñarse en diversos roles en
-            empresas públicas o privadas, a nivel nacional o internacional.
-          </p>
-        </article>
-
+      <section className="content__study-and-skills">
         <article className="content__skills">
-          <TitleIntroduction />
-
+          <div className="bx-titleStudiesSkills">
+            <TitleIntroduction titleName="Habilidades" />
+          </div>
           <section className="bx-skills">
             <div className="skills box-shadow-borde-html">
               <svg
