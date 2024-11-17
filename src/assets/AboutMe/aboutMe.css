@@ -124,11 +124,11 @@
                 }
             }
 
-            .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #E44D26;}}
-            .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #1572B6;}}
-            .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #F7DF1E;}}
-            .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #61DAFB;}}
-            .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{opacity: 1; transform: translateY(60px); background-color: #A259FF;}}
+            .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #E44D26;}}
+            .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #1572B6;}}
+            .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #F7DF1E;}}
+            .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #61DAFB;}}
+            .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #A259FF;}}
         }
     }
 }
@@ -138,5 +138,5 @@
     0% {opacity: 0;}
     25% {opacity: 0.3;}
     50% {opacity: .5;}
-    75%{opacity: .7; transform: translateY(60px);}
+    75%{opacity: .7; transform: translateY(58px);}
 }
