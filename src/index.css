@@ -46,6 +46,10 @@
   border-radius: 999px;
 }
 
+.html{color: #E44D26;}
+.css{color: #1572B6;}
+.react{color: #61DAFB;}
+
 *{
   margin: 0;
   padding: 0;

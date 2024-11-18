@@ -5,3 +5,5 @@
     height: 100%;
     padding: 4rem 0;
 }
+
+.content__allSection-portfolioProjects{padding: 4rem var(--spc-preset-1);}

@@ -1,0 +1,135 @@
+@import url(../../../index.css);
+
+.proyectsCard{
+    width: 345px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 14px;
+
+    .bx-imageProyect{
+        height: 205px;
+        overflow: hidden;
+        border-radius: 12px;
+        cursor: pointer;
+        
+        .image-proyectsCard{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: .3s ease;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    .bx-allInformation-proyectsCard{
+        display: flex;
+        flex-direction: column;
+
+        .titleProyectCard{
+            font-family: var(--fontF-second);
+            font-weight: bold;
+            font-size: var(--fts-preset-6);
+            margin: 1rem 0 4px 0;
+        }
+
+        .bx-tecnologyUsed-and-state{
+            margin-bottom: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .bx-tecnologyUsed{
+                display: flex;
+                gap: var(--spc-preset-6);
+
+                .stylesGeneralTecnologyUsed{
+                    font-size: var(--fts-preset-4);
+                    font-weight: bolder;
+                    font-family: var(--fontF-second);
+                }
+            }
+
+            .bx-state{
+                position: relative;
+                width: 20px;
+                height: 20px;
+                background-color: hsl(135, 82%, 71%, 25%);
+                border-radius: 50%;
+                cursor: pointer;
+                transition: all .2s ease;
+
+                &::before{
+                    content: '';
+                    position: absolute;
+                    width: 13px;
+                    height: 13px;
+                    background-color: #79F297;
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                &::after{
+                    content: 'Terminado';
+                    position: absolute;
+                    background-color: #79F297;
+                    padding: 2px 1rem;
+                    border-radius: 9px;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    opacity: 0;
+                    color: white;
+                    font-weight: bolder;
+                    font-size: var(--fts-preset-7);
+                    text-transform: uppercase;
+                    filter: drop-shadow(0px 4px 2px #41825151);
+                    transition: .2s ease;
+                    pointer-events: none;
+                }
+
+                &:hover{
+                    &::after{
+                        top: -20px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .proyectsCard-description{ margin-bottom: 1rem; .txt{font-family: var(--fontF-second);}}
+    }
+
+    .proyectsCard-month-year-and-seeProyect{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .month-year{
+            font-size: var(--fts-preset-7);
+            color: var(--colorFT-gray);
+            font-weight: bold;
+        }
+
+        .bx-iconArrow{
+            display: block;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 2px solid var(--colorBG-black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: .3s ease;
+
+            &:hover{
+                background-color: #1212123e;
+            }
+        }
+    }
+}
