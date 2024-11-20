@@ -18,9 +18,7 @@
             object-fit: cover;
             transition: .3s ease;
 
-            &:hover{
-                transform: scale(1.2);
-            }
+            &:hover{transform: scale(1.2);}
         }
     }
 
@@ -101,7 +99,17 @@
             }
         }
 
-        .proyectsCard-description{ margin-bottom: 1rem; .txt{font-family: var(--fontF-second);}}
+        .proyectsCard-description{ 
+            margin-bottom: 1rem; 
+            overflow-y: auto;
+            scroll-snap-type: y mandatory;
+            scroll-behavior: smooth;
+            height: 65px;
+
+            .txt{
+                font-family: var(--fontF-second);
+            }
+        }
     }
 
     .proyectsCard-month-year-and-seeProyect{
@@ -116,7 +124,6 @@
         }
 
         .bx-iconArrow{
-            display: block;
             width: 35px;
             height: 35px;
             border-radius: 50%;
@@ -130,6 +137,8 @@
             &:hover{
                 background-color: #1212123e;
             }
+
+            .iconArrow{display: flex;}
         }
     }
 }

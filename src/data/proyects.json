@@ -1,0 +1,190 @@
+[
+  {
+    "projectTitle": "Gráfico de Gastos",
+    "technologies": ["HTML", "CSS", "REACT"],
+    "description": "En este desafío, creé un gráfico de barras desde cero y utilicé un archivo JSON local para agregar los datos de forma dinámica.",
+    "date": "Octubre | 2024",
+    "status": "completado",
+    "image": "public/images/GraficodePrecios.png",
+    "URL": "https://expenses-chart-component-main-rho.vercel.app/"
+  },
+  {
+    "projectTitle": "Lista de Productos",
+    "technologies": ["HTML", "CSS", "REACT"],
+    "description": "He aprendido a actualizar la interfaz de usuario en diferentes partes según las acciones del usuario y a utilizar un archivo JSON para poblar dinámicamente el DOM, lo que me ha permitido mejorar mis habilidades en proyectos interactivos.",
+    "date": "Octubre | 2024",
+    "status": "completado",
+    "image": "public/images/ListaProductos.png",
+    "URL": "https://lucent-bubblegum-4b6459.netlify.app/"
+  },
+  {
+    "projectTitle": "Calculadora de Hipoteca",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": "Mientras desarrollaba una calculadora de hipotecas, aprendí a manejar formularios de manera efectiva y a implementar la validación del lado del cliente para garantizar que los datos ingresados sean correctos antes de procesarlos. También practiqué cómo actualizar dinámicamente el DOM para reflejar los cambios en tiempo real, mejorando así la experiencia del usuario.",
+    "date": "Julio | 2024",
+    "status": "en progreso",
+    "image": "public/images/CalculadoraHipoteca.png",
+    "URL": "https://mortgage-repaiment-calculator.netlify.app/"
+  },
+  {
+    "projectTitle": "Carrito de Compras",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": "Implementé la funcionalidad para agregar, eliminar y actualizar productos en un carrito de compras dinámico.",
+    "date": "Julio | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Landing Page para Restaurante",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": "Diseñé una landing page responsive para un restaurante con animaciones e interacción básica.",
+    "date": "Junio | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Administrador de Tareas",
+    "technologies": ["React", "CSS"],
+    "description": "Aplicación que permite a los usuarios organizar sus tareas pendientes con un diseño minimalista.",
+    "date": "Mayo | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Gestor de Notas",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Construí una aplicación de notas donde los usuarios pueden guardar, editar y eliminar notas.",
+    "date": "Abril | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Galería de Imágenes",
+    "technologies": ["HTML", "CSS", "React"],
+    "description": "Desarrollé una galería dinámica que permite a los usuarios filtrar imágenes según categorías.",
+    "date": "Marzo | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Calculadora",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Creé una calculadora funcional con un diseño moderno y responsivo.",
+    "date": "Febrero | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Reloj Digital",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Construí un reloj digital en tiempo real con diferentes temas visuales.",
+    "date": "Enero | 2024",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Juego de Memoria",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Desarrollé un juego de memoria interactivo para practicar lógica y diseño.",
+    "date": "Diciembre | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Piedra, Papel o Tijera",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Implementé un juego de piedra, papel o tijera con una interfaz simple.",
+    "date": "Noviembre | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Animaciones con GSAP",
+    "technologies": ["HTML", "CSS", "GSAP"],
+    "description": "Creé animaciones avanzadas usando GSAP para una página interactiva.",
+    "date": "Octubre | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Blog Personal",
+    "technologies": ["HTML", "CSS", "React"],
+    "description": "Desarrollé un blog personal donde publico artículos sobre desarrollo web.",
+    "date": "Septiembre | 2023",
+    "status": "en progreso"
+  },
+  {
+    "projectTitle": "Simulador de Gasto Mensual",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Construí un simulador que calcula gastos mensuales basado en ingresos y gastos del usuario.",
+    "date": "Agosto | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Formulario de Registro",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Creé un formulario de registro con validaciones en tiempo real.",
+    "date": "Julio | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Gráfico Circular Dinámico",
+    "technologies": ["HTML", "CSS", "D3.js"],
+    "description": "Diseñé un gráfico circular que se actualiza dinámicamente con datos proporcionados.",
+    "date": "Junio | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "To-Do App con Firebase",
+    "technologies": ["React", "Firebase"],
+    "description": "Aplicación para gestionar tareas con persistencia en Firebase.",
+    "date": "Mayo | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Juego del Ahorcado",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Desarrollé un juego del ahorcado con lógica personalizada y palabras aleatorias.",
+    "date": "Abril | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Página de Portafolio Animada",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Diseñé un portafolio animado con transiciones suaves para mejorar la experiencia del usuario.",
+    "date": "Marzo | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Tienda Virtual",
+    "technologies": ["React", "CSS"],
+    "description": "Desarrollé una tienda virtual con productos, carrito y sistema de pagos simulados.",
+    "date": "Febrero | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Clon de Netflix",
+    "technologies": ["React", "CSS", "Firebase"],
+    "description": "Creé un clon de Netflix con funcionalidad básica de navegación y listas de películas.",
+    "date": "Enero | 2023",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Conversor de Divisas",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Construí un conversor de divisas que usa una API externa para datos en tiempo real.",
+    "date": "Diciembre | 2022",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Simulador de Clima",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Desarrollé un simulador de clima que obtiene datos de una API y muestra resultados interactivos.",
+    "date": "Noviembre | 2022",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Galería de Productos",
+    "technologies": ["HTML", "CSS", "React"],
+    "description": "Diseñé una galería para mostrar productos con filtros por categorías.",
+    "date": "Octubre | 2022",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Juego de Trivia",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Construí un juego de trivia con preguntas aleatorias y un sistema de puntuación.",
+    "date": "Septiembre | 2022",
+    "status": "completado"
+  }
+]

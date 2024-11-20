@@ -1,6 +1,8 @@
 @import url(../../index.css);
 
 .proyectPortfolio-contentAll{
+    position: relative;
+
     .proyectPortfolio-bx-titleProyects{
         display: flex;
         justify-content: center;
@@ -96,5 +98,30 @@
                 align-items: center;
             }
         }
+
+        
     }
+
+        .content__modalState {
+            position: fixed;
+            width: 1200px;
+            height: 700px;
+            background-color: red;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+
+            .closeModal{
+                position: absolute;
+                right: 1rem;
+                top: 1rem;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+            }
+        }
 }
