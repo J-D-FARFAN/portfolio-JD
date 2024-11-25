@@ -1,5 +1,14 @@
 @import url(../../index.css);
 
+.titleJobs {
+    display: block;
+    color: var(--colorFT-white);
+    font-weight: bold;
+    font-family: var(--fontF-second);
+    font-size: var(--fts-preset-2);
+    margin-bottom: var(--spc-preset-3);
+}
+
 .proyectPortfolio-contentAll{
     position: relative;
 
@@ -63,21 +72,12 @@
         flex-direction: column;
         align-items: center;
 
-        .titleJobs{
-            display: block;
-            color: var(--colorFT-white);
-            font-weight: bold;
-            font-family: var(--fontF-second);
-            font-size: var(--fts-preset-2);
-            margin-bottom: var(--spc-preset-3);
-        }
-
         .bx-proyectsCards{
             display: flex;
             justify-content: center;
+            gap: var(--spc-preset-2);
             align-items: center;
             width: 100%;
-            gap: var(--spc-preset-4);
         }
 
         .bx-moreProyects{
@@ -98,30 +98,80 @@
                 align-items: center;
             }
         }
-
-        
     }
 
-        .content__modalState {
-            position: fixed;
-            width: 1200px;
-            height: 700px;
-            background-color: red;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
+    .content__modalState {
+        position: fixed;
+        width: 1300px;
+        height: 700px;
+        background-color: var(--colorCARD-blackGray);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        padding: 5rem;
+        border-radius: 24px;
+        
+        .bx-contentALL-proyectsPortfolio{
+            overflow-y: scroll;
+            overflow-x: hidden;
+            height: 100%;
 
-            .closeModal{
-                position: absolute;
-                right: 1rem;
-                top: 1rem;
-                cursor: pointer;
+            .titleJobs{text-align: center;}
+
+            .bx-proyectsCards{
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                width: 30px;
-                height: 30px;
+                flex-wrap: wrap;
+                width: fit-content;
+                height: fit-content;
+                gap: var(--spc-preset-4);
+                backface-visibility: hidden;
+                will-change: transform, opacity;
             }
         }
+
+        .closeModal{
+            position: absolute;
+            right: 1rem;
+            top: 1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .modal--visible {
+        visibility: visible;
+        animation: showModalTransition 0.1999s forwards;
+    }
+    
+    .modal--hidden {
+        animation: closeModalTransition 0.5s forwards;
+    }
+}
+
+@keyframes showModalTransition {
+    from {
+        transform: translate(-80%, -80%);
+    }
+
+    to {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes closeModalTransition {
+    from {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate(50%, 60%);
+        opacity: 0;
+    }
 }

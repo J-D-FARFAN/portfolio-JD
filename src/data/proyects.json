@@ -1,5 +1,6 @@
 [
   {
+    "ID": "Proyect1",
     "projectTitle": "Gráfico de Gastos",
     "technologies": ["HTML", "CSS", "REACT"],
     "description": "En este desafío, creé un gráfico de barras desde cero y utilicé un archivo JSON local para agregar los datos de forma dinámica.",
@@ -9,6 +10,7 @@
     "URL": "https://expenses-chart-component-main-rho.vercel.app/"
   },
   {
+    "ID": "Proyect2",
     "projectTitle": "Lista de Productos",
     "technologies": ["HTML", "CSS", "REACT"],
     "description": "He aprendido a actualizar la interfaz de usuario en diferentes partes según las acciones del usuario y a utilizar un archivo JSON para poblar dinámicamente el DOM, lo que me ha permitido mejorar mis habilidades en proyectos interactivos.",
@@ -18,6 +20,7 @@
     "URL": "https://lucent-bubblegum-4b6459.netlify.app/"
   },
   {
+    "ID": "Proyect3",
     "projectTitle": "Calculadora de Hipoteca",
     "technologies": ["HTML", "CSS", "JS"],
     "description": "Mientras desarrollaba una calculadora de hipotecas, aprendí a manejar formularios de manera efectiva y a implementar la validación del lado del cliente para garantizar que los datos ingresados sean correctos antes de procesarlos. También practiqué cómo actualizar dinámicamente el DOM para reflejar los cambios en tiempo real, mejorando así la experiencia del usuario.",
@@ -178,6 +181,13 @@
     "technologies": ["HTML", "CSS", "React"],
     "description": "Diseñé una galería para mostrar productos con filtros por categorías.",
     "date": "Octubre | 2022",
+    "status": "completado"
+  },
+  {
+    "projectTitle": "Juego de Trivia",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "description": "Construí un juego de trivia con preguntas aleatorias y un sistema de puntuación.",
+    "date": "Septiembre | 2022",
     "status": "completado"
   },
   {
