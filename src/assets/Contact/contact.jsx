@@ -67,23 +67,23 @@ export function ContactPortfolio() {
           "service_s19jkfv", // Reemplaza con tu Service ID
           "template_2jf8pp9", // Reemplaza con tu Template ID
           {
-            nombre: inputValues.nombre,
-            apellido: inputValues.apellido,
-            correo: inputValues.correo,
-            message: inputValues.message,
+            from_name: inputValues.nombre, // Nombre del remitente
+            from_last_name: inputValues.apellido, // Apellido del remitente
+            reply_to: inputValues.correo, // Correo del remitente
+            message: inputValues.message, // Contenido del mensaje
           },
           "bsUdEZzlMPwapdsoQ" // Reemplaza con tu Public Key
         )
         .then(
           (response) => {
             console.log("Correo enviado con éxito:", response);
-            setSuccessMessage("El formulario se envió correctamente."); // Mostrar mensaje de éxito
+            setSuccessMessage("El formulario se envió correctamente.");
             setInputValues({
               nombre: "",
               apellido: "",
               correo: "",
               message: "",
-            }); // Limpiar formulario
+            });
           },
           (error) => {
             console.error("Error al enviar el correo:", error);
