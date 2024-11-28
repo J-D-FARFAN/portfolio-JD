@@ -3,6 +3,7 @@ import { CardProyectsPortfolio } from "./components/cardProyects";
 import "./proyect.css";
 import dataProyects from "/src/data/proyects.json";
 import { useState } from "react";
+import { TitleIntroductionV2 } from "./components/titleIntroductionV2";
 
 export function ProyectsPortfolio() {
   const [showMore, setShowMore] = useState(false);
@@ -23,12 +24,7 @@ export function ProyectsPortfolio() {
   return (
     <>
       <article className="proyectPortfolio-contentAll">
-        <div className="proyectPortfolio-bx-titleProyects">
-          <div className="bx-titleProyects">
-            <span className="circle"></span>
-            <span className="titleProyects">Proyectos</span>
-          </div>
-        </div>
+        <TitleIntroductionV2 title={"Proyectos"} />
 
         <section className="proyectPortfolio-content-proyectsCards">
           <span className="titleJobs">Últimos Trabajos</span>
