@@ -65,7 +65,7 @@ export function ContactPortfolio() {
       emailjs
         .send(
           "service_s19jkfv", // Reemplaza con tu Service ID
-          "template_x56aoid", // Reemplaza con tu Template ID
+          "template_2jf8pp9", // Reemplaza con tu Template ID
           {
             nombre: inputValues.nombre,
             apellido: inputValues.apellido,
