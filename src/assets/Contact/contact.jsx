@@ -64,15 +64,15 @@ export function ContactPortfolio() {
       // Configuración para enviar el formulario con EmailJS
       emailjs
         .send(
-          "service_s19jkfv", // Reemplaza con tu Service ID
-          "template_2jf8pp9", // Reemplaza con tu Template ID
+          "service_s19jkfv",
+          "template_2jf8pp9",
           {
-            from_name: inputValues.nombre, // Nombre del remitente
-            from_last_name: inputValues.apellido, // Apellido del remitente
-            reply_to: inputValues.correo, // Correo del remitente
-            message: inputValues.message, // Contenido del mensaje
+            from_name: inputValues.nombre,
+            from_last_name: inputValues.apellido,
+            reply_to: inputValues.correo,
+            message: inputValues.message,
           },
-          "bsUdEZzlMPwapdsoQ" // Reemplaza con tu Public Key
+          "bsUdEZzlMPwapdsoQ"
         )
         .then(
           (response) => {
