@@ -6,7 +6,13 @@
     flex-direction: column;
     align-items: center;
 
-    .bx-introduction--contactPortfolio{
+
+    .content_description-and-form{
+        display: flex;
+        align-items: center;
+        gap: var(--spc-preset-4);
+
+        .bx-introduction--contactPortfolio{
         text-align: center;
         display: flex;
         align-items: center;
@@ -23,6 +29,102 @@
         .myText-contactPortfolio{
             width: 730px;
             font-size: var(--fts-preset-6);
+        }
+
+        .bx-networdSocial{
+            width: 100%;
+            height: 150px;
+            padding: var(--spc-preset-5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .bx-iconsSocial{
+                display: flex;
+                align-items: center;
+                gap: var(--spc-preset-5);
+
+                .content--tooltip-and-iconsSocial{
+                    position: relative;
+                    transition: .3s ease;
+
+                    .iconsSocial{
+                        position: relative;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: 2px solid var(--colorFT-white);
+                        display: flex;
+                        padding: 5px;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        overflow: hidden;
+                        z-index: 1;
+                        transition: .3s ease;
+
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            left: -100px;
+                            top: -100px;
+                            border-radius: 50%;
+                            background-color: var(--colorFT-white);
+                            z-index: -1;
+                            transition: .3s ease;
+                        }
+                    
+                        &:hover{
+                            color: var(--colorBG-black);
+
+                            &::before{
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                    }
+
+                    .tooltipIconsSocial{
+                        position: absolute;
+                        pointer-events: none;
+                        top: -25px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        font-size: 10px;
+                        font-family: var(--fontF-second);
+                        text-transform: uppercase;
+                        padding: 4px 1rem;
+                        border-radius: 999px;
+                        background-color: var(--colorFT-white);
+                        color: var(--colorBG-black);
+                        font-weight: bolder;
+                        transition: .2s ease;
+                        opacity: 0;
+
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            width: 10px;
+                            height: 10px;
+                            background-color: var(--colorFT-white);
+                            top: -9px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            --triangle-shape: polygon(50% 0, 100% 100%, 0 100%);
+                            clip-path: var(--triangle-shape);
+                        }
+                    }
+
+                    &:hover{
+                        .tooltipIconsSocial{
+                            top: 40px;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -123,11 +225,14 @@
             }
         }
     }
+    }
 }
 
 .input-active{
     border-color: var(--colorFT-white) !important;
 }
+
+.input-error{border-color: brown !important;}
 
 .error-message{
     display: block;

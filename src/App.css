@@ -8,8 +8,10 @@
 
 .content__allSection-portfolioProjects{padding: 4rem var(--spc-preset-1);}
 .content__allSection-portfolioContact{
-    height: 100%;
+    position: relative;
+    height: 100vh;
     background-color: var(--colorCARD-blackGray);
     padding: 4rem var(--spc-preset-1);
     color: var(--colorFT-white);
+    overflow: hidden;
 }
