@@ -3,7 +3,7 @@
 .content__all--contactPortfolio{
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 
 
@@ -13,12 +13,12 @@
         gap: var(--spc-preset-4);
 
         .bx-introduction--contactPortfolio{
-        text-align: center;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: var(--spc-preset-5);
-        margin-bottom: var(--spc-preset-3);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: var(--spc-preset-5);
+            margin-bottom: var(--spc-preset-3);
 
         .title-likeMeJob{
             font-size: var(--fts-preset-2);
@@ -245,4 +245,25 @@
 @keyframes linearSmooth {
     0%{left: -100%;}
     50%, 100%{left: 100%;}
+}
+
+@media screen and (max-width: 769px) {
+    .content__all--contactPortfolio{
+        height: 100%;
+        gap: 0;
+        
+        .content_description-and-form{
+            flex-direction: column;
+            gap: 0;
+            
+            .bx-introduction--contactPortfolio{
+                width: 100%;
+                height: fit-content;
+                margin: 0;
+                
+                .myText-contactPortfolio{width: 100%;}
+            }
+        }
+    }
+    
 }

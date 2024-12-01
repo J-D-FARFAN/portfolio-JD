@@ -140,3 +140,40 @@
     50% {opacity: .5;}
     75%{opacity: .7; transform: translateY(58px);}
 }
+
+
+@media screen and (max-width: 769px){
+    .bx-introducionAboutMe{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
+
+        .secondTitle{
+            width: 100%;
+        }
+        
+        .descriptionMe{
+            width: 100%;
+            padding: 0;
+            text-align: center;
+            padding: 0 4rem;
+        }
+    }
+
+    .content__study-and-skills{
+        .content__skills{
+            .bx-skills{
+                gap: var(--spc-preset-4);
+                
+                .skills{
+                    width: 90px;
+                    height: 90px;
+                    padding: 25px;
+                }
+            }
+        }
+    }
+}

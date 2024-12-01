@@ -75,3 +75,9 @@
         }
     }
 }
+
+@media screen and (max-width: 769px){
+    .bx-logo-navbarPortfolio{.bx-navbar{display: none;}}
+
+    .bx-icons-interactionPortfolio-theme-language{display: none;}
+}

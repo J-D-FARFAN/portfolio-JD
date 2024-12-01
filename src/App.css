@@ -1,12 +1,13 @@
 @import url(./index.css);
 
 .content__allSection-portfolioAboutMe{
+    position: relative;
     color: var(--colorFT-white);
     height: 100%;
     padding: 4rem 0;
 }
 
-.content__allSection-portfolioProjects{padding: 4rem var(--spc-preset-1);}
+.content__allSection-portfolioProjects{padding: 4rem var(--spc-preset-1); position: relative;}
 .content__allSection-portfolioContact{
     position: relative;
     height: 100vh;
@@ -14,4 +15,11 @@
     padding: 4rem var(--spc-preset-1);
     color: var(--colorFT-white);
     overflow: hidden;
+}
+
+@media screen and (max-width: 769px){
+    .content__allSection-portfolioContact{
+        padding: 2rem 4rem;
+        height: 100%;
+    }
 }

@@ -12,8 +12,6 @@
 .proyectPortfolio-contentAll{
     position: relative;
 
-    
-
     .proyectPortfolio-content-proyectsCards{
         display: flex;
         flex-direction: column;
@@ -120,5 +118,24 @@
     to {
         transform: translate(50%, 60%);
         opacity: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .proyectPortfolio-contentAll{
+        width: 100%;
+
+        .proyectPortfolio-content-proyectsCards{
+            .bx-proyectsCards{
+                flex-direction: column;
+            }
+        }
+
+
+        .content__modalState{
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
     }
 }

@@ -142,3 +142,7 @@
         }
     }
 }
+
+@media screen and (max-width: 769px){
+    .proyectsCard{width: 400px;}
+}

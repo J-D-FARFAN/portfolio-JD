@@ -112,6 +112,72 @@
     }
 }
 
+/* From Uiverse.io by Cevorob */
+.bx-burguerMenu{
+    display: none;
+
+    .burger {
+        position: relative;
+        width: 20px;
+        height: 15px;
+        background: transparent;
+        cursor: pointer;
+        display: block;
+    }
+
+    .burger input {
+        display: none;
+    }
+
+    .burger span {
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: var(--colorFT-white);
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+
+    .burger span:nth-of-type(1) {
+        top: 0px;
+        transform-origin: left center;
+    }
+
+    .burger span:nth-of-type(2) {
+        top: 50%;
+        transform: translateY(-50%);
+        transform-origin: left center;
+    }
+
+    .burger span:nth-of-type(3) {
+        top: 100%;
+        transform-origin: left center;
+        transform: translateY(-100%);
+    }
+
+    .burger input:checked~span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 0px;
+        left: 5px;
+    }
+
+    .burger input:checked~span:nth-of-type(2) {
+        width: 0%;
+        opacity: 0;
+    }
+
+    .burger input:checked~span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 15px;
+        left: 5px;
+    }
+}
+
+
 @keyframes move {
     0%{transform: translateY(0);}
     25%{transform: translateY(0);}
@@ -126,4 +192,48 @@
     50%{transform: translateY(-15%);}
     75%{transform: translateY(100%);}
     100%{transform: translateY(0);}
+}
+
+
+@media screen and (max-width: 769px) {
+    .content__header-portfolio{
+        .bx-burguerMenu{
+            display: block;
+        }
+    }
+
+    .content__allIntroduction-portfolio{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+
+        .content-introduction-portfolio{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .introduction-portfolio{
+                .bx-btn-scrollDown{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .content-proyects-yearExperience{
+                    .content-numbers{
+                        .numbers{font-size: 2.5rem;}
+                    }
+                }
+
+                .title{font-size: 9rem; text-align: center;}
+            }
+        }
+
+        .image-presentation-portfolio{
+            position: relative;
+            width: 450px;
+            height: 550px;
+            left: 0;
+        }
+    }
 }

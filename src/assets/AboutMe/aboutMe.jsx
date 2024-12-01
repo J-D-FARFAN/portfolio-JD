@@ -8,7 +8,7 @@ export function AboutMePortfolio() {
     <>
       <section className="bx-introducionAboutMe">
         <h2 className="secondTitle">Sobre mí</h2>
-        <p className="descriptionMe">
+        <p className="descriptionMe txt">
           Tengo experiencia en la creación de interfaces orientadas a mejorar la
           interacción y la funcionalidad de los productos digitales. Mi trabajo
           se enfoca en aplicar buenas prácticas de desarrollo y diseño para

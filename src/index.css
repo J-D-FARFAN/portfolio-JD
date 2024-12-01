@@ -18,6 +18,7 @@
   --fts-preset-5: 50px;
   --fts-preset-6: 22px;
   --fts-preset-7: 12px;
+  --sizeWorkSection: 10rem;
 
   /*FONT FAMILY*/
   --fontF-general: "Jura", sans-serif;
@@ -37,6 +38,7 @@
 .spacerPage{
   padding: 0 var(--spc-preset-1);
 }
+
 
 .line{
   display: block;
@@ -81,6 +83,7 @@
   bottom: 2rem;
   overflow: hidden;
   transition: all .5s ease-in-out;
+  text-transform: uppercase;
   
 
   &::before {
@@ -123,4 +126,12 @@
 @keyframes disableTranslateXTooltip {
   from{left: 2rem;}
   to{left: -500px;}
+}
+
+@media screen and (max-width: 769px) {
+  .spacerPage{
+    padding: 0 4rem;
+  }
+
+  .txt{font-size: 15px;}
 }

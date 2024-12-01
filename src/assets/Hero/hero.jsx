@@ -7,6 +7,15 @@ export function HeroPortfolio() {
     <>
       <header className="content__header-portfolio spacerPage">
         <NavbarPortfolio />
+
+        <div className="bx-burguerMenu">
+          <label className="burger" htmlFor="burger">
+            <input type="checkbox" id="burger" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
       </header>
 
       <main className="content__allIntroduction-portfolio spacerPage">
