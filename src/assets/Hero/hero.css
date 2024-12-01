@@ -195,7 +195,7 @@
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 835px) {
     .content__header-portfolio{
         .bx-burguerMenu{
             display: block;

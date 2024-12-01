@@ -17,7 +17,7 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 835px){
     .content__allSection-portfolioContact{
         padding: 2rem 4rem;
         height: 100%;

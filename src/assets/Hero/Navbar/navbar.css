@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 835px){
     .bx-logo-navbarPortfolio{.bx-navbar{display: none;}}
 
     .bx-icons-interactionPortfolio-theme-language{display: none;}
