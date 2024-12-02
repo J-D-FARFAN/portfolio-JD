@@ -243,6 +243,13 @@
 
     .content__allIntroduction-portfolio{
         gap: 1rem;
+        
+        .content-introduction-portfolio{
+            .introduction-portfolio{
+                .bx-btn-scrollDown{margin-top: 2rem; margin-bottom: 2rem;}
+            }
+        }
+        
 
         .image-presentation-portfolio{
             width: 100%;
