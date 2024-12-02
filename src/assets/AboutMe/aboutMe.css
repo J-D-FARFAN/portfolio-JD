@@ -140,14 +140,23 @@
                     transform: translateY(0);
                     transition: all .266s ease-in-out;
                     pointer-events: none;
+
+                    
+                }
+
+                &:hover{
+                    .nameSkill{
+                        opacity: 1;
+                        transform: translateY(58px);
+                    }
                 }
             }
 
-            .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #E44D26;}}
-            .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #1572B6;}}
-            .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #F7DF1E;}}
-            .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #61DAFB;}}
-            .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{opacity: 1; transform: translateY(58px); background-color: #A259FF;}}
+            .box-shadow-borde-html:hover{border-color: #E44D26; filter: drop-shadow(3px 6px 2px #e44c267a); .nameSkill{background-color: #E44D26;}}
+            .box-shadow-borde-css:hover{border-color: #1572B6; filter: drop-shadow(3px 6px 2px #1572B67a); .nameSkill{background-color: #1572B6;}}
+            .box-shadow-borde-js:hover{border-color: #F7DF1E; filter: drop-shadow(3px 6px 2px #F7DF1E7a); .nameSkill{background-color: #F7DF1E;}}
+            .box-shadow-borde-react:hover{border-color: #61DAFB; filter: drop-shadow(3px 6px 2px #61DAFB7a); .nameSkill{ background-color: #61DAFB;}}
+            .box-shadow-borde-figma:hover{border-color: #A259FF; filter: drop-shadow(3px 6px 2px #A259FF7a); .nameSkill{background-color: #A259FF;}}
         }
     }
 }
@@ -247,6 +256,16 @@
                     width: 200px;
                     height: 200px;
                     padding: 3rem;
+
+                    .nameSkill{
+                        font-size: 16px;
+                    }
+
+                    &:hover{
+                        .nameSkill{
+                            transform: translateY(98px);
+                        }
+                    }
                 }
             }
         }
