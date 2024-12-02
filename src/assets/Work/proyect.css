@@ -62,7 +62,7 @@
             overflow-x: hidden;
             height: 100%;
 
-            .titleJobs{text-align: center;}
+            .titleJobs{text-align: center; font-size: var(--fts-preset-5);}
 
             .bx-proyectsCards{
                 display: flex;
@@ -145,6 +145,10 @@
     .proyectPortfolio-contentAll{
         .content__modalState{
             padding: 1rem;
+
+            .bx-contentALL-proyectsPortfolio{
+                .titleJobs{--fts-preset-5: 25px}
+            }
         }
     }
 }
