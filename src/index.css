@@ -135,3 +135,14 @@
 
   .txt{font-size: 15px;}
 }
+
+
+@media screen and (min-width: 319px) and (max-width: 441px){
+  body{--fts-preset-5: 40px}
+
+  .spacerPage {
+    padding: 0 1rem;
+  }
+
+  .txt{font-size: 14px;}
+}

@@ -2,13 +2,20 @@ import React from "react";
 import "./aboutMe.css";
 import { TitleIntroduction } from "./Components/titleIntroduction";
 import { StudiesSkills } from "./Components/studiesSkills";
+import { useState } from "react";
 
 export function AboutMePortfolio() {
+  const [showMore, setShowMore] = useState(false);
+  const showMoreTxt = showMore ? "descriptionMe fullTxt" : "descriptionMe";
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
+  };
+
   return (
     <>
       <section className="bx-introducionAboutMe">
         <h2 className="secondTitle">Sobre mí</h2>
-        <p className="descriptionMe txt">
+        <p className={showMoreTxt}>
           Tengo experiencia en la creación de interfaces orientadas a mejorar la
           interacción y la funcionalidad de los productos digitales. Mi trabajo
           se enfoca en aplicar buenas prácticas de desarrollo y diseño para
@@ -16,6 +23,10 @@ export function AboutMePortfolio() {
           comprometo a mantener altos estándares de calidad y precisión en cada
           proyecto, con un enfoque en la innovación y la optimización constante.
         </p>
+
+        <button className="moreTxt" onClick={toggleShowMore}>
+          {showMore ? "Ver menos" : "Saber más"}
+        </button>
       </section>
 
       <article className="contentAboutMe-Study spacerPage">

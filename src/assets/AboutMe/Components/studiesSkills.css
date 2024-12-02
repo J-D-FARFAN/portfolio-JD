@@ -66,3 +66,35 @@
         }
     }
 }
+
+@media screen and (min-width: 319px) and (max-width: 441px){
+    .studiesSkills-contentBox{
+        text-align: center;
+        .studiesSkills-sectionMain{
+            flex-direction: column;
+            text-align: center;
+
+            .bx-studiesSkills-name-and-year{
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+
+                .bx-year-and-month{
+                    font-size: 10px;
+                }
+
+                .nameStudy{font-size: 18px;}
+            }
+
+            .studiesSkill-box-name{
+                margin-top: 1rem;
+                align-items: center;
+
+                .nameSkill{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
