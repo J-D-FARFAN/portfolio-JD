@@ -21,7 +21,7 @@
             margin-bottom: var(--spc-preset-3);
 
         .title-likeMeJob{
-            font-size: var(--fts-preset-2);
+            font-size: var(--fts-preset-5);
             font-weight: bold;
             font-family: var(--fontF-second);
         }
@@ -265,5 +265,16 @@
             }
         }
     }
-    
+}
+
+@media screen and (min-width: 319px) and (max-width: 441px){
+    .content__all--contactPortfolio{
+
+        .content_description-and-form{
+            .myText-contactPortfolio{
+                width: 100%;
+                font-size: 17px !important;
+            }
+        }
+    }
 }

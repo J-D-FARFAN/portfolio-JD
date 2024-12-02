@@ -5,7 +5,7 @@
     color: var(--colorFT-white);
     font-weight: bold;
     font-family: var(--fontF-second);
-    font-size: var(--fts-preset-2);
+    font-size: var(--fts-preset-5);
     margin-bottom: var(--spc-preset-3);
 }
 
@@ -86,6 +86,7 @@
             align-items: center;
             width: 30px;
             height: 30px;
+            z-index: 9999;
         }
     }
 
@@ -136,6 +137,14 @@
             width: 100%;
             height: 100%;
             border-radius: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 319px) and (max-width: 441px){
+    .proyectPortfolio-contentAll{
+        .content__modalState{
+            padding: 1rem;
         }
     }
 }
