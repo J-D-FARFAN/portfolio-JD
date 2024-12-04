@@ -6,7 +6,7 @@
     "description": "En este desafío, creé un gráfico de barras desde cero y utilicé un archivo JSON local para agregar los datos de forma dinámica.",
     "date": "Octubre | 2024",
     "status": "completado",
-    "image": "/images/GraficoGastos.webp",
+    "image": "/images/GraficoGastos_11zon.webp",
     "URL": "https://expenses-chart-component-main-rho.vercel.app/"
   },
   {
@@ -26,7 +26,7 @@
     "description": "Mientras desarrollaba una calculadora de hipotecas, aprendí a manejar formularios de manera efectiva y a implementar la validación del lado del cliente para garantizar que los datos ingresados sean correctos antes de procesarlos. También practiqué cómo actualizar dinámicamente el DOM para reflejar los cambios en tiempo real, mejorando así la experiencia del usuario.",
     "date": "Julio | 2024",
     "status": "en progreso",
-    "image": "/images/CalculadorHipoteca.webp",
+    "image": "/images/CalculadorHipoteca_11zon.webp",
     "URL": "https://mortgage-repaiment-calculator.netlify.app/"
   },
   {

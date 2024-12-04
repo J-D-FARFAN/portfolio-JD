@@ -74,6 +74,7 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  font-display: swap;
 
   body{
     background-color: var(--colorBG-black);
