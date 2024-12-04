@@ -6,7 +6,7 @@
     "description": "En este desafío, creé un gráfico de barras desde cero y utilicé un archivo JSON local para agregar los datos de forma dinámica.",
     "date": "Octubre | 2024",
     "status": "completado",
-    "image": "public/images/GraficodePrecios.png",
+    "image": "/images/GraficodePrecios.png",
     "URL": "https://expenses-chart-component-main-rho.vercel.app/"
   },
   {
@@ -16,7 +16,7 @@
     "description": "He aprendido a actualizar la interfaz de usuario en diferentes partes según las acciones del usuario y a utilizar un archivo JSON para poblar dinámicamente el DOM, lo que me ha permitido mejorar mis habilidades en proyectos interactivos.",
     "date": "Octubre | 2024",
     "status": "completado",
-    "image": "public/images/ListaProductos.png",
+    "image": "/images/ListaProductos.png",
     "URL": "https://lucent-bubblegum-4b6459.netlify.app/"
   },
   {
@@ -26,7 +26,7 @@
     "description": "Mientras desarrollaba una calculadora de hipotecas, aprendí a manejar formularios de manera efectiva y a implementar la validación del lado del cliente para garantizar que los datos ingresados sean correctos antes de procesarlos. También practiqué cómo actualizar dinámicamente el DOM para reflejar los cambios en tiempo real, mejorando así la experiencia del usuario.",
     "date": "Julio | 2024",
     "status": "en progreso",
-    "image": "public/images/CalculadoraHipoteca.png",
+    "image": "/images/CalculadoraHipoteca.png",
     "URL": "https://mortgage-repaiment-calculator.netlify.app/"
   },
   {

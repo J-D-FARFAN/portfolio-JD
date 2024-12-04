@@ -12,16 +12,16 @@ export function NavbarPortfolio() {
 
         <nav className="bx-navbar">
           <ul className="navbar">
-            <a href="#" className="items-navbar-portfolio">
+            <a href="#inicio" className="items-navbar-portfolio">
               Inicio
             </a>
-            <a href="#" className="items-navbar-portfolio">
+            <a href="#sobreMi" className="items-navbar-portfolio">
               Sobre mí
             </a>
-            <a href="#" className="items-navbar-portfolio">
+            <a href="#proyectos" className="items-navbar-portfolio">
               Proyectos
             </a>
-            <a href="#" className="items-navbar-portfolio">
+            <a href="#contacto" className="items-navbar-portfolio">
               Contacto
             </a>
           </ul>

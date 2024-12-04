@@ -59,6 +59,7 @@
   font-family: var(--fontF-general);
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 
   body{
     background-color: var(--colorBG-black);
@@ -146,5 +147,3 @@
 
   .txt{font-size: 14px;}
 }
-
-

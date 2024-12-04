@@ -8,17 +8,19 @@ import { ProyectsPortfolio } from "./assets/Work/proyect";
 function App() {
   return (
     <>
-      <article className="content__allHero-portfolio">
+      <article className="content__allHero-portfolio" id="inicio">
         <HeroPortfolio />
       </article>
 
-      <article className="content__allSection-portfolioAboutMe">
+      <article className="content__allSection-portfolioAboutMe" id="sobreMi">
         <AboutMePortfolio />
       </article>
-      <article className="content__allSection-portfolioProjects">
+
+      <article className="content__allSection-portfolioProjects" id="proyectos">
         <ProyectsPortfolio />
       </article>
-      <article className="content__allSection-portfolioContact">
+
+      <article className="content__allSection-portfolioContact" id="contacto">
         <ContactPortfolio />
       </article>
     </>

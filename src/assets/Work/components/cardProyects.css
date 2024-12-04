@@ -119,7 +119,7 @@
 
         .month-year{
             font-size: var(--fts-preset-7);
-            color: var(--colorFT-gray);
+            color: rgba(128, 128, 128, 0.784);
             font-weight: bold;
         }
 
