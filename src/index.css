@@ -35,6 +35,21 @@
   --spc-preset-8: 2px;
 }
 
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 82%, 0.15);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 9%, 50%);
+  border-radius: 999px;
+}
+
 .spacerPage{
   padding: 0 var(--spc-preset-1);
 }
