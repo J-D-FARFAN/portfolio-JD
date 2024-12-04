@@ -13,7 +13,12 @@ export function CardProyectsPortfolio({
     <>
       <section className="proyectsCard">
         <div className="bx-imageProyect">
-          <img src={imageProyect} alt="" className="image-proyectsCard" />
+          <img
+            src={imageProyect}
+            alt=""
+            className="image-proyectsCard"
+            loading="lazy"
+          />
         </div>
 
         <div className="bx-allInformation-proyectsCard">
